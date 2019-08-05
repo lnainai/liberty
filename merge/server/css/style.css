@@ -1,0 +1,399 @@
+@charset "UTF-8";
+/* 菜单 */
+nav .menu .two {
+  display: none;
+  z-index: 20; }
+  nav .menu .two li {
+    background: linear-gradient(to right, #f00, #ff3264);
+    position: relative; }
+    nav .menu .two li a {
+      height: 40px;
+      width: 164px;
+      display: block;
+      text-decoration: none; }
+    nav .menu .two li span {
+      float: left;
+      width: 124px;
+      display: block;
+      font: 14px/40px "";
+      text-align: center;
+      color: #fff; }
+    nav .menu .two li i {
+      float: left;
+      display: block;
+      width: 20px;
+      height: 20px;
+      margin: 10px 10px; }
+      nav .menu .two li i.t1 {
+        background-position: 0 -20px; }
+      nav .menu .two li i.t2 {
+        background-position: -20px -20px; }
+      nav .menu .two li i.t3 {
+        background-position: -40px -20px; }
+      nav .menu .two li i.t4 {
+        background-position: -60px -20px; }
+      nav .menu .two li i.t5 {
+        background-position: -80px -20px; }
+      nav .menu .two li i.t6 {
+        background-position: -100px -20px; }
+      nav .menu .two li i.t7 {
+        background-position: -120px -20px; }
+      nav .menu .two li i.t8 {
+        background-position: -140px -20px; }
+      nav .menu .two li i.t9 {
+        background-position: -160px -20px; }
+      nav .menu .two li i.t10 {
+        background-position: -180px -20px; }
+      nav .menu .two li i.t11 {
+        background-position: -200px -20px; }
+    nav .menu .two li:hover {
+      background: #fff; }
+      nav .menu .two li:hover span {
+        color: #f00; }
+      nav .menu .two li:hover i.t1 {
+        background-position: 0 0; }
+      nav .menu .two li:hover i.t2 {
+        background-position: -20px 0; }
+      nav .menu .two li:hover i.t3 {
+        background-position: -40px 0; }
+      nav .menu .two li:hover i.t4 {
+        background-position: -60px 0; }
+      nav .menu .two li:hover i.t5 {
+        background-position: -80px 0; }
+      nav .menu .two li:hover i.t6 {
+        background-position: -100px 0; }
+      nav .menu .two li:hover i.t7 {
+        background-position: -120px 0; }
+      nav .menu .two li:hover i.t8 {
+        background-position: -140px 0; }
+      nav .menu .two li:hover i.t9 {
+        background-position: -160px 0; }
+      nav .menu .two li:hover i.t10 {
+        background-position: -180px 0; }
+      nav .menu .two li:hover i.t11 {
+        background-position: -200px 0; }
+    nav .menu .two li .subMenu {
+      display: none;
+      border: 1px solid #f00;
+      width: 930px;
+      height: 440px;
+      z-index: 30;
+      position: absolute;
+      top: 0;
+      left: 164px;
+      display: flex; }
+      nav .menu .two li .subMenu .joinus {
+        width: 690px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px 0 15px; }
+        nav .menu .two li .subMenu .joinus .box {
+          height: 187px;
+          display: flex;
+          flex-direction: row; }
+          nav .menu .two li .subMenu .joinus .box .beauty h6 {
+            font: 700 14px/34px "";
+            border-bottom: 1px solid #eaeaea; }
+          nav .menu .two li .subMenu .joinus .box .beauty ul li {
+            float: left;
+            background: #fff;
+            font: 12px/34px "";
+            color: #666;
+            margin: 0 14px 0 6px; }
+            nav .menu .two li .subMenu .joinus .box .beauty ul li.co {
+              float: left;
+              background: #fff;
+              font: 12px/34px "";
+              color: #f00;
+              margin: 0 14px 0 6px; }
+      nav .menu .two li .subMenu .brand {
+        width: 237px;
+        height: 440px;
+        background: #f6f6f6;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; }
+        nav .menu .two li .subMenu .brand a {
+          display: block;
+          width: 104px;
+          height: 104px; }
+          nav .menu .two li .subMenu .brand a.bet {
+            width: 215px;
+            height: 88px; }
+          nav .menu .two li .subMenu .brand a img {
+            width: 104px;
+            height: 104px;
+            display: block;
+            border-color: #eaeaea; }
+            nav .menu .two li .subMenu .brand a img.b1 {
+              background-position: 0 0; }
+            nav .menu .two li .subMenu .brand a img.b2 {
+              background-position: -104px 0; }
+            nav .menu .two li .subMenu .brand a img.b3 {
+              background-position: 0 -104px; }
+            nav .menu .two li .subMenu .brand a img.b4 {
+              background-position: -104px -104px; }
+            nav .menu .two li .subMenu .brand a img.b5 {
+              background-position: -208px 0; }
+            nav .menu .two li .subMenu .brand a img.b6 {
+              background-position: -208px -208px; }
+            nav .menu .two li .subMenu .brand a img.bet {
+              width: 215px;
+              height: 88px; }
+
+#banner {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+  #banner ul {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    left: 50%;
+    margin-left: -960px; }
+    #banner ul li {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      overflow: hidden; }
+  #banner input {
+    width: 25px;
+    font: 700 16px/70px "";
+    color: #fff;
+    text-align: center;
+    background: #673836;
+    position: absolute;
+    border: none;
+    z-index: 10;
+    top: 150px; }
+    #banner input.btnl {
+      left: 20px; }
+    #banner input.btnr {
+      right: 20px; }
+
+#act .voucher {
+  height: 484px;
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column; }
+  #act .voucher h2 {
+    font: 30px/68px "";
+    color: #c5475a;
+    text-align: center; }
+  #act .voucher .new {
+    height: 257px;
+    border-bottom: 1px solid #ddd;
+    position: relative; }
+    #act .voucher .new .cher {
+      position: absolute;
+      left: 48px; }
+      #act .voucher .new .cher a {
+        margin: 0 7px; }
+  #act .voucher .un {
+    flex-grow: 0;
+    position: relative; }
+    #act .voucher .un .cher {
+      position: absolute;
+      left: 46px; }
+      #act .voucher .un .cher a {
+        margin: 0 5px; }
+
+#act .venue {
+  height: 320px;
+  position: relative; }
+  #act .venue .cher {
+    position: absolute;
+    left: 65px;
+    margin: 11px 0; }
+    #act .venue .cher a {
+      margin: 0 5px; }
+
+#goods {
+  height: 2348px;
+  border-bottom: 1px solid #eaeaea; }
+  #goods .content .wome {
+    background: #f0f0f0; }
+    #goods .content .wome h3 {
+      height: 60px;
+      background: #e31436;
+      font: 28px/60px "";
+      color: #fff;
+      text-align: center; }
+    #goods .content .wome .list {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 12px 0 0 38px;
+      height: 862px; }
+      #goods .content .wome .list li {
+        flex-grow: 0;
+        width: 192px;
+        height: 277px;
+        background: #fff;
+        position: relative;
+        margin: 0 1px 7px 10px; }
+        #goods .content .wome .list li .com a img {
+          width: 192px;
+          height: 192px; }
+        #goods .content .wome .list li .area {
+          position: absolute;
+          left: 15px;
+          top: 175px;
+          width: 56px;
+          height: 15px;
+          border: 1px solid #e31436;
+          border-radius: 3px;
+          text-align: center; }
+          #goods .content .wome .list li .area a {
+            color: #e31436; }
+        #goods .content .wome .list li .name {
+          margin-left: 5px;
+          display: block;
+          width: 175px;
+          font: 700 14px/28px "";
+          color: #000;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        #goods .content .wome .list li h6 {
+          margin-left: 5px;
+          font: 12px/2 "";
+          color: #666; }
+        #goods .content .wome .list li .desc {
+          margin-left: 5px; }
+          #goods .content .wome .list li .desc .price {
+            font: 700 16px/32px "";
+            color: #e31436;
+            float: left; }
+          #goods .content .wome .list li .desc .buy {
+            display: block;
+            width: 60px;
+            height: 24px;
+            font: 12px/2 "";
+            color: #fff;
+            text-align: center;
+            float: right;
+            margin: 4px 5px 4px 0;
+            border-radius: 3px;
+            background: #e31436; }
+  #goods .content .optional {
+    background: #f0f0f0; }
+    #goods .content .optional h3 {
+      height: 60px;
+      background: #e31436;
+      font: 28px/60px "";
+      color: #fff;
+      text-align: center; }
+    #goods .content .optional .list {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 12px 0 0 38px;
+      height: 862px; }
+      #goods .content .optional .list li {
+        flex-grow: 0;
+        width: 192px;
+        height: 277px;
+        background: #fff;
+        position: relative;
+        margin: 0 1px 7px 10px; }
+        #goods .content .optional .list li .com a img {
+          width: 192px;
+          height: 192px; }
+        #goods .content .optional .list li .area {
+          position: absolute;
+          left: 15px;
+          top: 175px;
+          width: 56px;
+          height: 15px;
+          border: 1px solid #e31436;
+          border-radius: 3px;
+          text-align: center; }
+          #goods .content .optional .list li .area a {
+            color: #e31436; }
+        #goods .content .optional .list li .name {
+          margin-left: 5px;
+          display: block;
+          width: 175px;
+          font: 700 14px/28px "";
+          color: #000;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        #goods .content .optional .list li h6 {
+          margin-left: 5px;
+          font: 12px/2 "";
+          color: #666; }
+        #goods .content .optional .list li .desc {
+          margin-left: 5px; }
+          #goods .content .optional .list li .desc .price {
+            font: 700 16px/32px "";
+            color: #e31436;
+            float: left; }
+          #goods .content .optional .list li .desc .buy {
+            display: block;
+            width: 60px;
+            height: 24px;
+            font: 12px/2 "";
+            color: #fff;
+            text-align: center;
+            float: right;
+            margin: 4px 5px 4px 0;
+            border-radius: 3px;
+            background: #e31436; }
+  #goods .content .use a {
+    display: block; }
+    #goods .content .use a img {
+      width: 100%;
+      height: 400px; }
+
+#about .guild {
+  border-bottom: 1px solid #eaeaea; }
+  #about .guild ul {
+    height: 48px;
+    display: flex;
+    margin: 49px 0; }
+    #about .guild ul li {
+      width: 233px;
+      height: 48px;
+      margin-left: 48px; }
+      #about .guild ul li i {
+        width: 48px;
+        height: 48px;
+        display: block;
+        float: left;
+        margin-right: 11px; }
+        #about .guild ul li i.g1 {
+          background-position: 0 0; }
+        #about .guild ul li i.g2 {
+          background-position: -48px 0; }
+        #about .guild ul li i.g3 {
+          background-position: -96px 0; }
+        #about .guild ul li i.g4 {
+          background-position: -144px 0; }
+      #about .guild ul li .subc {
+        float: left; }
+        #about .guild ul li .subc h6 {
+          font: 700 18px/26px ""; }
+        #about .guild ul li .subc span {
+          font: 12px/18px ""; }
+
+#about .service {
+  height: 163px; }
+  #about .service .service-l img {
+    width: 220px;
+    height: 43px; }
+  #about .service .service-l span {
+    display: block;
+    width: 218px;
+    height: 32px;
+    font: 12px/32px ""; }
+    #about .service .service-l span i {
+      display: block;
+      width: 32px;
+      height: 32px; }
+      #about .service .service-l span i.bo {
+        background-position: 0 0; }
+      #about .service .service-l span i.xin {
+        background-position: -32px 0; }
+      #about .service .service-l span i.yi {
+        background-position: -64px 0; }

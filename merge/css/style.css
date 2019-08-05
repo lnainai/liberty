@@ -1,0 +1,76 @@
+.margin{width:1090px;margin:0 auto;}
+.bg{background:url(../imgs/bg2.png) no-repeat;background-size:236px 40px;}
+.bg1{background:url(../imgs/bg1.png) no-repeat;background-size:96px 32px;}
+.bg3{background:url(../imgs/bg3.png) no-repeat;background-size:220px 40px;}
+.bg4{background:url(../imgs/bg4.png);background-size:208px 312px;}
+.bg5{background:url(../imgs/bg5.png);background-size:192px 48px;}
+header{background:#000;height:30px;border-bottom: 1px solid #ededee;}
+#topNav{color:#999;font:12px/30px "";}
+.login{float:right;}
+.login a{display:inline-block;color:#999;}
+
+.title{height:100px;}
+.logo{float:left;margin:20px 135px 16px 0;}
+.search{float:left;width:510px;height:54px;margin:24px 0 12px;}
+.search .find{border:2px solid red;width:510px;height:40px;border-radius:40px;position:relative;}
+.search .find i{float:left;margin:11px 9px;width:14px;height:14px;background-position: -20px 0;}
+.search .find .sea{float:left;width:410px;height:24px;margin:6px 0;border:none;}
+.search .find .btn{float:right;background:#ff2337; width:50px;height:36px;border-radius:30px;position:absolute;top:0;right:0;border:none;}
+.search .find .btn img{width:20px;height:18px;position:absolute;top:9px;left:18px;}
+/* .search hot{display:flex;justify-content:space-between;} */
+.search .hot a{font:12px/2 "";color:#999; display:inline-block; margin:0 15px;}
+.search .hot a.fire{color:red;}
+
+.cart{float:right;width:110px;height:40px;
+    border:2px solid red;border-radius:40px;
+    margin:24px 76px 36px 0;position:relative;
+    font:700 14px/36px ""; text-align: center;  
+}
+.cart i{
+    display: inline-block;
+    width:20px;height:20px;
+    background-position:0 -18px;
+    position:absolute;top:8px;left:18px;
+}
+.cart span{display: inline-block;position:absolute;top:0;right:16px;}
+
+nav{ 
+    border-bottom: 1px solid #ccc;
+    /* background: #fff;z-index: 102; */
+}
+nav .menu{
+    float:left;
+    height: 40px;width: 164px;
+    background: linear-gradient(to right,#f00,#ff3264);
+    border-bottom: 1px solid #ff5160;
+}
+nav .menu .sort i{
+    display: inline-block;
+    width:15px;height:12px;
+    background-position: 0 0;
+    margin: 0 20px 0 15px;
+}
+nav .menu .sort span{
+    font:14px/40px "";  text-align:center;color:#fff;
+}
+nav .navTop{
+    height:40px;
+    display:flex;justify-content:space-between;
+    padding-left: 25px; 
+    
+}
+nav .navTop li{
+    align-self:center;
+    height:40px;   
+    overflow: hidden;
+    padding: 0 20px;
+}
+nav .navTop li a{
+    display:block;
+    font:700 14px/40px "";color:#000;   
+}
+nav .navTop li a:hover{color:red;text-decoration:none;}
+
+
+
+
