@@ -168,9 +168,11 @@ nav .menu .two {
     z-index: 10;
     top: 150px; }
     #banner input.btnl {
-      left: 20px; }
+      left: 20px;
+      z-index: 10000; }
     #banner input.btnr {
-      right: 20px; }
+      right: 20px;
+      z-index: 10000; }
 
 #act .voucher {
   height: 484px;
@@ -210,7 +212,7 @@ nav .menu .two {
       margin: 0 5px; }
 
 #goods {
-  height: 2348px;
+  height: 4200px;
   border-bottom: 1px solid #eaeaea; }
   #goods .content .wome {
     background: #f0f0f0; }
@@ -340,60 +342,243 @@ nav .menu .two {
             margin: 4px 5px 4px 0;
             border-radius: 3px;
             background: #e31436; }
+  #goods .content .full {
+    background: #f0f0f0; }
+    #goods .content .full h3 {
+      height: 60px;
+      background: #e31436;
+      font: 28px/60px "";
+      color: #fff;
+      text-align: center; }
+    #goods .content .full .list {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 12px 0 0 38px;
+      height: 862px; }
+      #goods .content .full .list li {
+        flex-grow: 0;
+        width: 192px;
+        height: 277px;
+        background: #fff;
+        position: relative;
+        margin: 0 1px 7px 10px; }
+        #goods .content .full .list li .com a img {
+          width: 192px;
+          height: 192px; }
+        #goods .content .full .list li .area {
+          position: absolute;
+          left: 15px;
+          top: 175px;
+          width: 56px;
+          height: 15px;
+          border: 1px solid #e31436;
+          border-radius: 3px;
+          text-align: center; }
+          #goods .content .full .list li .area a {
+            color: #e31436; }
+        #goods .content .full .list li .name {
+          margin-left: 5px;
+          display: block;
+          width: 175px;
+          font: 700 14px/28px "";
+          color: #000;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        #goods .content .full .list li h6 {
+          margin-left: 5px;
+          font: 12px/2 "";
+          color: #666; }
+        #goods .content .full .list li .desc {
+          margin-left: 5px; }
+          #goods .content .full .list li .desc .price {
+            font: 700 16px/32px "";
+            color: #e31436;
+            float: left; }
+          #goods .content .full .list li .desc .buy {
+            display: block;
+            width: 60px;
+            height: 24px;
+            font: 12px/2 "";
+            color: #fff;
+            text-align: center;
+            float: right;
+            margin: 4px 5px 4px 0;
+            border-radius: 3px;
+            background: #e31436; }
+  #goods .content .factory {
+    background: #f0f0f0; }
+    #goods .content .factory h3 {
+      height: 60px;
+      background: #e31436;
+      font: 28px/60px "";
+      color: #fff;
+      text-align: center; }
+    #goods .content .factory .list {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 12px 0 0 38px;
+      height: 862px; }
+      #goods .content .factory .list li {
+        flex-grow: 0;
+        width: 192px;
+        height: 277px;
+        background: #fff;
+        position: relative;
+        margin: 0 1px 7px 10px; }
+        #goods .content .factory .list li .com a img {
+          width: 192px;
+          height: 192px; }
+        #goods .content .factory .list li .area {
+          position: absolute;
+          left: 15px;
+          top: 175px;
+          width: 56px;
+          height: 15px;
+          border: 1px solid #e31436;
+          border-radius: 3px;
+          text-align: center; }
+          #goods .content .factory .list li .area a {
+            color: #e31436; }
+        #goods .content .factory .list li .name {
+          margin-left: 5px;
+          display: block;
+          width: 175px;
+          font: 700 14px/28px "";
+          color: #000;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        #goods .content .factory .list li h6 {
+          margin-left: 5px;
+          font: 12px/2 "";
+          color: #666; }
+        #goods .content .factory .list li .desc {
+          margin-left: 5px; }
+          #goods .content .factory .list li .desc .price {
+            font: 700 16px/32px "";
+            color: #e31436;
+            float: left; }
+          #goods .content .factory .list li .desc .buy {
+            display: block;
+            width: 60px;
+            height: 24px;
+            font: 12px/2 "";
+            color: #fff;
+            text-align: center;
+            float: right;
+            margin: 4px 5px 4px 0;
+            border-radius: 3px;
+            background: #e31436; }
   #goods .content .use a {
     display: block; }
     #goods .content .use a img {
       width: 100%;
       height: 400px; }
 
-#about .guild {
-  border-bottom: 1px solid #eaeaea; }
-  #about .guild ul {
-    height: 48px;
-    display: flex;
-    margin: 49px 0; }
-    #about .guild ul li {
-      width: 233px;
+#about {
+  height: 410px; }
+  #about .guild {
+    border-bottom: 1px solid #eaeaea; }
+    #about .guild ul {
       height: 48px;
-      margin-left: 48px; }
-      #about .guild ul li i {
-        width: 48px;
+      display: flex;
+      margin: 49px 0; }
+      #about .guild ul li {
+        width: 233px;
         height: 48px;
+        margin-left: 48px; }
+        #about .guild ul li i {
+          width: 48px;
+          height: 48px;
+          display: block;
+          float: left;
+          margin-right: 11px; }
+          #about .guild ul li i.g1 {
+            background-position: 0 0; }
+          #about .guild ul li i.g2 {
+            background-position: -48px 0; }
+          #about .guild ul li i.g3 {
+            background-position: -96px 0; }
+          #about .guild ul li i.g4 {
+            background-position: -144px 0; }
+        #about .guild ul li .subc {
+          float: left; }
+          #about .guild ul li .subc h6 {
+            font: 700 18px/26px ""; }
+          #about .guild ul li .subc span {
+            font: 12px/18px ""; }
+  #about .service {
+    height: 163px;
+    padding: 31px 0 69px 0;
+    display: flex; }
+    #about .service .service-l {
+      padding-top: 12px; }
+      #about .service .service-l img {
+        width: 220px;
+        height: 43px; }
+      #about .service .service-l span {
         display: block;
-        float: left;
-        margin-right: 11px; }
-        #about .guild ul li i.g1 {
-          background-position: 0 0; }
-        #about .guild ul li i.g2 {
-          background-position: -48px 0; }
-        #about .guild ul li i.g3 {
-          background-position: -96px 0; }
-        #about .guild ul li i.g4 {
-          background-position: -144px 0; }
-      #about .guild ul li .subc {
-        float: left; }
-        #about .guild ul li .subc h6 {
-          font: 700 18px/26px ""; }
-        #about .guild ul li .subc span {
-          font: 12px/18px ""; }
+        width: 218px;
+        height: 32px;
+        margin-top: 20px;
+        font: 12px/32px "";
+        display: flex; }
+        #about .service .service-l span i {
+          display: block;
+          width: 32px;
+          height: 32px;
+          margin-left: 13px; }
+          #about .service .service-l span i.bo {
+            background-position: 0 0; }
+          #about .service .service-l span i.xin {
+            background-position: -32px 0; }
+          #about .service .service-l span i.yi {
+            background-position: -64px 0; }
+    #about .service .service-c {
+      display: flex;
+      margin: 0 20px 0 31px; }
+      #about .service .service-c dl {
+        margin: 0 29px; }
+        #about .service .service-c dl dt {
+          font: 18px/47px ""; }
+        #about .service .service-c dl dd {
+          font: 12px/30px ""; }
+    #about .service .service-r {
+      width: 108px;
+      text-align: center;
+      margin-top: 14px; }
+      #about .service .service-r img {
+        width: 108px;
+        height: 108px; }
+      #about .service .service-r span {
+        font: 12px/29px ""; }
 
-#about .service {
-  height: 163px; }
-  #about .service .service-l img {
-    width: 220px;
-    height: 43px; }
-  #about .service .service-l span {
-    display: block;
-    width: 218px;
-    height: 32px;
-    font: 12px/32px ""; }
-    #about .service .service-l span i {
-      display: block;
-      width: 32px;
-      height: 32px; }
-      #about .service .service-l span i.bo {
-        background-position: 0 0; }
-      #about .service .service-l span i.xin {
-        background-position: -32px 0; }
-      #about .service .service-l span i.yi {
-        background-position: -64px 0; }
+footer {
+  height: 153px;
+  background: #000;
+  color: #c2c2c2; }
+  footer .nest {
+    padding: 14px 0; }
+    footer .nest p {
+      text-align: center;
+      font: 12px/25px "";
+      margin: 0 auto; }
+
+#side {
+  width: 75px;
+  position: fixed;
+  right: 0;
+  top: 30%;
+  font: 12px/3 "";
+  color: #fff;
+  z-index: 999999;
+  background: #f03048; }
+  #side li {
+    width: 75px;
+    height: 36px;
+    text-align: center;
+    border-bottom: 1px solid #c0263a;
+    cursor: pointer; }
+    #side li:hover {
+      background: #b42436; }
