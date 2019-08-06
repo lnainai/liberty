@@ -4,55 +4,15 @@
 .bg3{background:url(../imgs/bg3.png) no-repeat;background-size:220px 40px;}
 .bg4{background:url(../imgs/bg4.png);background-size:208px 312px;}
 .bg5{background:url(../imgs/bg5.png);background-size:192px 48px;}
-header{background:#000;height:30px;border-bottom: 1px solid #ededee;}
+
 #topNav{color:#999;font:12px/30px "";}
 .login{float:right;}
-.login a{display:inline-block;color:#999;}
-
-.title{height:100px;}
-.logo{float:left;margin:20px 135px 16px 0;}
-.search{float:left;width:510px;height:54px;margin:24px 0 12px;}
-.search .find{border:2px solid red;width:510px;height:40px;border-radius:40px;position:relative;}
-.search .find i{float:left;margin:11px 9px;width:14px;height:14px;background-position: -20px 0;}
-.search .find .sea{float:left;width:410px;height:24px;margin:6px 0;border:none;}
-.search .find .btn{float:right;background:#ff2337; width:50px;height:36px;border-radius:30px;position:absolute;top:0;right:0;border:none;}
-.search .find .btn img{width:20px;height:18px;position:absolute;top:9px;left:18px;}
-/* .search hot{display:flex;justify-content:space-between;} */
-.search .hot a{font:12px/2 "";color:#999; display:inline-block; margin:0 15px;}
-.search .hot a.fire{color:red;}
-
-.cart{float:right;width:110px;height:40px;
-    border:2px solid red;border-radius:40px;
-    margin:24px 76px 36px 0;position:relative;
-    font:700 14px/36px ""; text-align: center;  
-}
-.cart i{
-    display: inline-block;
-    width:20px;height:20px;
-    background-position:0 -18px;
-    position:absolute;top:8px;left:18px;
-}
-.cart span{display: inline-block;position:absolute;top:0;right:16px;}
+.login a{display:inline-block;color:#999;} 
 
 nav{ 
     border-bottom: 1px solid #ccc;
-    /* background: #fff;z-index: 102; */
 }
-nav .menu{
-    float:left;
-    height: 40px;width: 164px;
-    background: linear-gradient(to right,#f00,#ff3264);
-    border-bottom: 1px solid #ff5160;
-}
-nav .menu .sort i{
-    display: inline-block;
-    width:15px;height:12px;
-    background-position: 0 0;
-    margin: 0 20px 0 15px;
-}
-nav .menu .sort span{
-    font:14px/40px "";  text-align:center;color:#fff;
-}
+
 nav .navTop{
     height:40px;
     display:flex;justify-content:space-between;
@@ -70,6 +30,28 @@ nav .navTop li a{
     font:700 14px/40px "";color:#000;   
 }
 nav .navTop li a:hover{color:red;text-decoration:none;}
+
+/* #goods{height:4200px;border-bottom:1px solid #eaeaea;}
+#goods .content{background:#f0f0f0;}
+#goods .content .part{height:60px;background:rgb(227, 20, 54);}
+#goods .content .part .home{float:left;width:125px;font:28px/60px "";color:#fff;text-align:center;border:1px solid #fff;}
+#goods .content .part .baby{float:left;width:125px;font:28px/60px "";color:#fff;text-align:center;border:1px solid #fff;}
+#goods .content .tab{position:relative;height:934px;}
+#goods .content .tab .list{ display:flex;flex-wrap:wrap;position:absolute;margin:12px 0 0 38px;height:862px;}
+#goods .content .tab .list.list-l{}
+#goods .content .tab .list.list-r{display:none;}
+#goods .content .part .home:hover{}
+#goods .content .part .baby:hover{}
+#goods .content .tab .list li{flex-grow:0;width:192px;height:277px;background:#fff;position:relative; margin:0 1px 7px 10px;} 
+#goods .content .tab .list li .com a img{width:192px;height:192px;} */
+/* 
+#goods .content .tab .list li .area{position:absolute;left:15px;top:175px;width:56px;height:15px;border:1px solid #e31436;border-radius: 3px;text-align:center;}
+#goods .content .tab .list li .area a{color:#e31436;}
+#goods .content .tab .list li .name{margin-left:5px;display:block;width:175px;font:700 14px/28px "";color:#000;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+#goods .content .tab .list li h6{margin-left:5px;font:12px/2 "";color:#666;}
+#goods .content .tab .list li .desc{margin-left:5px;}
+#goods .content .tab .list li .desc .price{font:700 16px/32px "";color:#e31436;float:left;}
+#goods .content .tab .list li .desc .buy{display:block;width:60px;height:24px;font:12px/2 "";color:#fff;text-align:center;float:right;margin:4px 5px 4px 0;border-radius: 3px;background:#e31436;} */
 
 
 

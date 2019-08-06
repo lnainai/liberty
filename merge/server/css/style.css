@@ -1,145 +1,260 @@
 @charset "UTF-8";
-/* 菜单 */
-nav .menu .two {
-  display: none;
-  z-index: 20; }
-  nav .menu .two li {
-    background: linear-gradient(to right, #f00, #ff3264);
-    position: relative; }
-    nav .menu .two li a {
+.title {
+  height: 100px;
+  overflow: hidden; }
+  .title .logo {
+    float: left;
+    margin: 20px 135px 16px 0; }
+  .title .search {
+    float: left;
+    width: 510px;
+    margin: 24px 0 12px; }
+    .title .search .find {
+      overflow: hidden;
+      border: 2px solid red;
       height: 40px;
-      width: 164px;
-      display: block;
-      text-decoration: none; }
-    nav .menu .two li span {
-      float: left;
-      width: 124px;
-      display: block;
-      font: 14px/40px "";
-      text-align: center;
-      color: #fff; }
-    nav .menu .two li i {
-      float: left;
-      display: block;
+      border-radius: 40px;
+      position: relative; }
+      .title .search .find i {
+        float: left;
+        margin: 11px 9px;
+        width: 14px;
+        height: 14px;
+        background-position: -20px 0; }
+      .title .search .find .sea {
+        float: left;
+        width: 410px;
+        height: 24px;
+        margin: 6px 0;
+        border: none; }
+      .title .search .find .btn {
+        float: right;
+        background: #ff2337;
+        width: 50px;
+        height: 36px;
+        border-radius: 30px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: none; }
+        .title .search .find .btn img {
+          width: 20px;
+          height: 18px;
+          position: absolute;
+          top: 9px;
+          left: 18px; }
+    .title .search .hot a {
+      font: 12px/2 "";
+      color: #999;
+      display: inline-block;
+      margin: 0 15px; }
+      .title .search .hot a.fire {
+        color: red; }
+  .title .cart {
+    float: right;
+    width: 110px;
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 40px;
+    margin: 24px 76px 36px 0;
+    position: relative;
+    font: 700 14px/36px ""; }
+    .title .cart i {
+      display: inline-block;
       width: 20px;
       height: 20px;
-      margin: 10px 10px; }
-      nav .menu .two li i.t1 {
-        background-position: 0 -20px; }
-      nav .menu .two li i.t2 {
-        background-position: -20px -20px; }
-      nav .menu .two li i.t3 {
-        background-position: -40px -20px; }
-      nav .menu .two li i.t4 {
-        background-position: -60px -20px; }
-      nav .menu .two li i.t5 {
-        background-position: -80px -20px; }
-      nav .menu .two li i.t6 {
-        background-position: -100px -20px; }
-      nav .menu .two li i.t7 {
-        background-position: -120px -20px; }
-      nav .menu .two li i.t8 {
-        background-position: -140px -20px; }
-      nav .menu .two li i.t9 {
-        background-position: -160px -20px; }
-      nav .menu .two li i.t10 {
-        background-position: -180px -20px; }
-      nav .menu .two li i.t11 {
-        background-position: -200px -20px; }
-    nav .menu .two li:hover {
-      background: #fff; }
-      nav .menu .two li:hover span {
-        color: #f00; }
-      nav .menu .two li:hover i.t1 {
-        background-position: 0 0; }
-      nav .menu .two li:hover i.t2 {
-        background-position: -20px 0; }
-      nav .menu .two li:hover i.t3 {
-        background-position: -40px 0; }
-      nav .menu .two li:hover i.t4 {
-        background-position: -60px 0; }
-      nav .menu .two li:hover i.t5 {
-        background-position: -80px 0; }
-      nav .menu .two li:hover i.t6 {
-        background-position: -100px 0; }
-      nav .menu .two li:hover i.t7 {
-        background-position: -120px 0; }
-      nav .menu .two li:hover i.t8 {
-        background-position: -140px 0; }
-      nav .menu .two li:hover i.t9 {
-        background-position: -160px 0; }
-      nav .menu .two li:hover i.t10 {
-        background-position: -180px 0; }
-      nav .menu .two li:hover i.t11 {
-        background-position: -200px 0; }
-    nav .menu .two li .subMenu {
-      display: none;
-      border: 1px solid #f00;
-      width: 930px;
-      height: 440px;
-      z-index: 30;
+      background-position: 0 -18px;
       position: absolute;
-      top: 0;
-      left: 164px;
-      display: flex; }
-      nav .menu .two li .subMenu .joinus {
-        width: 690px;
-        display: flex;
-        flex-direction: column;
-        margin: 0 20px 0 15px; }
-        nav .menu .two li .subMenu .joinus .box {
-          height: 187px;
-          display: flex;
-          flex-direction: row; }
-          nav .menu .two li .subMenu .joinus .box .beauty h6 {
-            font: 700 14px/34px "";
-            border-bottom: 1px solid #eaeaea; }
-          nav .menu .two li .subMenu .joinus .box .beauty ul li {
-            float: left;
-            background: #fff;
-            font: 12px/34px "";
-            color: #666;
-            margin: 0 14px 0 6px; }
-            nav .menu .two li .subMenu .joinus .box .beauty ul li.co {
-              float: left;
-              background: #fff;
-              font: 12px/34px "";
-              color: #f00;
-              margin: 0 14px 0 6px; }
-      nav .menu .two li .subMenu .brand {
-        width: 237px;
-        height: 440px;
-        background: #f6f6f6;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap; }
-        nav .menu .two li .subMenu .brand a {
+      top: 8px;
+      left: 18px; }
+    .title .cart span {
+      position: absolute;
+      right: 16px; }
+
+/* 菜单 */
+nav .menu {
+  float: left;
+  height: 40px;
+  width: 164px;
+  background: linear-gradient(to right, #f00, #ff3264);
+  border-bottom: 1px solid #ff5160; }
+  nav .menu .two {
+    display: none;
+    position: relative; }
+    nav .menu .two li {
+      z-index: 99999999999;
+      background: linear-gradient(to right, #f00, #ff3264);
+      position: relative; }
+      nav .menu .two li a {
+        height: 40px;
+        width: 164px;
+        display: block;
+        text-decoration: none; }
+        nav .menu .two li a span {
+          float: left;
+          width: 124px;
           display: block;
-          width: 104px;
-          height: 104px; }
-          nav .menu .two li .subMenu .brand a.bet {
-            width: 215px;
-            height: 88px; }
-          nav .menu .two li .subMenu .brand a img {
-            width: 104px;
-            height: 104px;
+          font: 14px/40px "";
+          text-align: center;
+          color: #fff; }
+        nav .menu .two li a i {
+          float: left;
+          display: block;
+          width: 20px;
+          height: 20px;
+          margin: 10px 10px; }
+          nav .menu .two li a i.t1 {
+            background-position: 0 -20px; }
+          nav .menu .two li a i.t2 {
+            background-position: -20px -20px; }
+          nav .menu .two li a i.t3 {
+            background-position: -40px -20px; }
+          nav .menu .two li a i.t4 {
+            background-position: -60px -20px; }
+          nav .menu .two li a i.t5 {
+            background-position: -80px -20px; }
+          nav .menu .two li a i.t6 {
+            background-position: -100px -20px; }
+          nav .menu .two li a i.t7 {
+            background-position: -120px -20px; }
+          nav .menu .two li a i.t8 {
+            background-position: -140px -20px; }
+          nav .menu .two li a i.t9 {
+            background-position: -160px -20px; }
+          nav .menu .two li a i.t10 {
+            background-position: -180px -20px; }
+          nav .menu .two li a i.t11 {
+            background-position: -200px -20px; }
+      nav .menu .two li .subMenu {
+        border: 1px solid #f00;
+        width: 930px;
+        height: 440px;
+        z-index: 99999999999;
+        position: absolute;
+        top: 0;
+        left: 164px;
+        background: #fff;
+        display: none; }
+        nav .menu .two li .subMenu .joinus {
+          float: left;
+          width: 568px;
+          display: flex;
+          flex-direction: column;
+          margin: 0 20px 0 15px; }
+          nav .menu .two li .subMenu .joinus .box {
+            display: flex; }
+            nav .menu .two li .subMenu .joinus .box .beauty h6 {
+              font: 700 14px/34px "";
+              border-bottom: 1px solid #eaeaea; }
+            nav .menu .two li .subMenu .joinus .box .beauty ul {
+              width: 283px; }
+              nav .menu .two li .subMenu .joinus .box .beauty ul li {
+                float: left;
+                background: #fff;
+                font: 12px/34px "";
+                color: #666;
+                margin: 0 14px 0 6px; }
+                nav .menu .two li .subMenu .joinus .box .beauty ul li.co {
+                  float: left;
+                  background: #fff;
+                  font: 12px/34px "";
+                  color: #f00;
+                  margin: 0 14px 0 6px; }
+        nav .menu .two li .subMenu .brand {
+          float: right;
+          width: 237px;
+          height: 438px;
+          background: #f6f6f6;
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap; }
+          nav .menu .two li .subMenu .brand a {
             display: block;
-            border-color: #eaeaea; }
-            nav .menu .two li .subMenu .brand a img.b1 {
-              background-position: 0 0; }
-            nav .menu .two li .subMenu .brand a img.b2 {
-              background-position: -104px 0; }
-            nav .menu .two li .subMenu .brand a img.b3 {
-              background-position: 0 -104px; }
-            nav .menu .two li .subMenu .brand a img.b4 {
-              background-position: -104px -104px; }
-            nav .menu .two li .subMenu .brand a img.b5 {
-              background-position: -208px 0; }
-            nav .menu .two li .subMenu .brand a img.b6 {
-              background-position: -208px -208px; }
-            nav .menu .two li .subMenu .brand a img.bet {
+            width: 104px;
+            height: 104px; }
+            nav .menu .two li .subMenu .brand a.bet {
               width: 215px;
               height: 88px; }
+            nav .menu .two li .subMenu .brand a img {
+              width: 104px;
+              height: 104px;
+              display: block;
+              border-color: #eaeaea; }
+              nav .menu .two li .subMenu .brand a img.b1 {
+                background-position: 0 0; }
+              nav .menu .two li .subMenu .brand a img.b2 {
+                background-position: -104px 0; }
+              nav .menu .two li .subMenu .brand a img.b3 {
+                background-position: 0 -104px; }
+              nav .menu .two li .subMenu .brand a img.b4 {
+                background-position: -104px -104px; }
+              nav .menu .two li .subMenu .brand a img.b5 {
+                background-position: -208px 0; }
+              nav .menu .two li .subMenu .brand a img.b6 {
+                background-position: -208px -208px; }
+              nav .menu .two li .subMenu .brand a img.bet {
+                width: 215px;
+                height: 88px; }
+      nav .menu .two li:hover {
+        background: #fff; }
+        nav .menu .two li:hover .subMenu {
+          display: block; }
+        nav .menu .two li:hover.mac .subMenu {
+          top: -40px; }
+        nav .menu .two li:hover.health .subMenu {
+          top: -80px; }
+        nav .menu .two li:hover.dev .subMenu {
+          top: -120px; }
+        nav .menu .two li:hover.dry .subMenu {
+          top: -160px; }
+        nav .menu .two li:hover.duds .subMenu {
+          top: -200px; }
+        nav .menu .two li:hover.sports .subMenu {
+          top: -240px; }
+        nav .menu .two li:hover.watch .subMenu {
+          top: -280px; }
+        nav .menu .two li:hover.luxury .subMenu {
+          top: -320px; }
+        nav .menu .two li:hover.life .subMenu {
+          top: -360px; }
+        nav .menu .two li:hover.food .subMenu {
+          top: -400px; }
+        nav .menu .two li:hover span {
+          color: #f00; }
+        nav .menu .two li:hover i.t1 {
+          background-position: 0 0; }
+        nav .menu .two li:hover i.t2 {
+          background-position: -20px 0; }
+        nav .menu .two li:hover i.t3 {
+          background-position: -40px 0; }
+        nav .menu .two li:hover i.t4 {
+          background-position: -60px 0; }
+        nav .menu .two li:hover i.t5 {
+          background-position: -80px 0; }
+        nav .menu .two li:hover i.t6 {
+          background-position: -100px 0; }
+        nav .menu .two li:hover i.t7 {
+          background-position: -120px 0; }
+        nav .menu .two li:hover i.t8 {
+          background-position: -140px 0; }
+        nav .menu .two li:hover i.t9 {
+          background-position: -160px 0; }
+        nav .menu .two li:hover i.t10 {
+          background-position: -180px 0; }
+        nav .menu .two li:hover i.t11 {
+          background-position: -200px 0; }
+  nav .menu .sort i {
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+    background-position: 0 0;
+    margin: 0 20px 0 15px; }
+  nav .menu .sort span {
+    font: 14px/40px "";
+    text-align: center;
+    color: #fff; }
+  nav .menu:hover .two {
+    display: block; }
 
 #banner {
   height: 400px;
@@ -212,7 +327,7 @@ nav .menu .two {
       margin: 0 5px; }
 
 #goods {
-  height: 4200px;
+  height: 5145px;
   border-bottom: 1px solid #eaeaea; }
   #goods .content .wome {
     background: #f0f0f0; }
@@ -470,6 +585,94 @@ nav .menu .two {
             margin: 4px 5px 4px 0;
             border-radius: 3px;
             background: #e31436; }
+  #goods .content #tabFir {
+    height: 934px;
+    margin: 10px auto; }
+    #goods .content #tabFir .ul {
+      /*overflow: hidden; !*清除子元素的浮动对父元素的影响*!*/
+      position: relative;
+      top: 1px; }
+      #goods .content #tabFir .ul:after {
+        display: block;
+        content: "";
+        clear: both; }
+      #goods .content #tabFir .ul li {
+        float: left;
+        width: 100px;
+        height: 30px;
+        border: 1px solid #f0f0f0;
+        line-height: 30px;
+        text-align: center;
+        cursor: pointer; }
+        #goods .content #tabFir .ul li.select {
+          background: #f0f0f0;
+          border-bottom-color: #f0f0f0; }
+    #goods .content #tabFir .tab {
+      background: #f0f0f0;
+      display: none;
+      height: 862px;
+      text-align: center;
+      line-height: 862px;
+      border: 1px solid #f0f0f0;
+      /*clear: both; 清除哥哥元素的浮动对弟弟元素的影响*!*/ }
+      #goods .content #tabFir .tab .list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 12px 0 0 38px;
+        height: 862px; }
+        #goods .content #tabFir .tab .list li {
+          flex-grow: 0;
+          width: 192px;
+          height: 277px;
+          background: #fff;
+          position: relative;
+          margin: 0 1px 7px 10px; }
+          #goods .content #tabFir .tab .list li .com a img {
+            width: 192px;
+            height: 192px; }
+          #goods .content #tabFir .tab .list li .area {
+            position: absolute;
+            left: 15px;
+            top: 175px;
+            width: 56px;
+            height: 15px;
+            border: 1px solid #e31436;
+            border-radius: 3px;
+            text-align: center; }
+            #goods .content #tabFir .tab .list li .area a {
+              color: #e31436; }
+          #goods .content #tabFir .tab .list li .name {
+            margin-left: 5px;
+            display: block;
+            width: 175px;
+            font: 700 14px/28px "";
+            color: #000;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis; }
+          #goods .content #tabFir .tab .list li h6 {
+            margin-left: 5px;
+            font: 12px/2 "";
+            color: #666; }
+          #goods .content #tabFir .tab .list li .desc {
+            margin-left: 5px; }
+            #goods .content #tabFir .tab .list li .desc .price {
+              font: 700 16px/32px "";
+              color: #e31436;
+              float: left; }
+            #goods .content #tabFir .tab .list li .desc .buy {
+              display: block;
+              width: 60px;
+              height: 24px;
+              font: 12px/2 "";
+              color: #fff;
+              text-align: center;
+              float: right;
+              margin: 4px 5px 4px 0;
+              border-radius: 3px;
+              background: #e31436; }
+      #goods .content #tabFir .tab.select {
+        display: block; }
   #goods .content .use a {
     display: block; }
     #goods .content .use a img {

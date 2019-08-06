@@ -1,5 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  -webkit-user-select: none;
+}
 body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,figure,input,textarea,select{margin:0;padding:0;}
 body{word-wrap:break-word;font:12px  "宋体";}
 fieldset,a img,.bor0{border:0;}
@@ -23,6 +30,95 @@ textarea{resize:none;}/*禁止多行文本输入框的拖动*/
 .clear:after{content:"";display:block;clear:both;}
 .cu{cursor:pointer;}
 
+header{background:#000;height:30px;border-bottom: 1px solid #ededee;}
 
+#about {
+    height: 410px; }
+    #about .guild {
+      border-bottom: 1px solid #eaeaea; }
+      #about .guild ul {
+        height: 48px;
+        display: flex;
+        margin: 49px 0; }
+        #about .guild ul li {
+          width: 233px;
+          height: 48px;
+          margin-left: 48px; }
+          #about .guild ul li i {
+            width: 48px;
+            height: 48px;
+            display: block;
+            float: left;
+            margin-right: 11px; }
+            #about .guild ul li i.g1 {
+              background-position: 0 0; }
+            #about .guild ul li i.g2 {
+              background-position: -48px 0; }
+            #about .guild ul li i.g3 {
+              background-position: -96px 0; }
+            #about .guild ul li i.g4 {
+              background-position: -144px 0; }
+          #about .guild ul li .subc {
+            float: left; }
+            #about .guild ul li .subc h6 {
+              font: 700 18px/26px ""; }
+            #about .guild ul li .subc span {
+              font: 12px/18px ""; }
+    #about .service {
+      height: 163px;
+      padding: 31px 0 69px 0;
+      display: flex; }
+      #about .service .service-l {
+        padding-top: 12px; }
+        #about .service .service-l img {
+          width: 220px;
+          height: 43px; }
+        #about .service .service-l span {
+          display: block;
+          width: 218px;
+          height: 32px;
+          margin-top: 20px;
+          font: 12px/32px "";
+          display: flex; }
+          #about .service .service-l span i {
+            display: block;
+            width: 32px;
+            height: 32px;
+            margin-left: 13px; }
+            #about .service .service-l span i.bo {
+              background-position: 0 0; }
+            #about .service .service-l span i.xin {
+              background-position: -32px 0; }
+            #about .service .service-l span i.yi {
+              background-position: -64px 0; }
+      #about .service .service-c {
+        display: flex;
+        margin: 0 20px 0 31px; }
+        #about .service .service-c dl {
+          margin: 0 29px; }
+          #about .service .service-c dl dt {
+            font: 18px/47px ""; }
+          #about .service .service-c dl dd {
+            font: 12px/30px ""; }
+      #about .service .service-r {
+        width: 108px;
+        text-align: center;
+        margin-top: 14px; }
+        #about .service .service-r img {
+          width: 108px;
+          height: 108px; }
+        #about .service .service-r span {
+          font: 12px/29px ""; }
+  
+  footer {
+    height: 153px;
+    background: #000;
+    color: #c2c2c2; }
+    footer .nest {
+      padding: 14px 0; }
+      footer .nest p {
+        text-align: center;
+        font: 12px/25px "";
+        margin: 0 auto; }
 
 

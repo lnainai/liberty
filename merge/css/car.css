@@ -1,0 +1,72 @@
+#section{min-height: 400px;padding-bottom: 50px;}
+#section .mycar{height: 50px;}
+#section .mycar span:nth-child(1){float: left;height: 50px;font: 18px/50px "";color: #212121;}
+#section .mycar span:nth-child(2){float: right;height: 50px;font: 14px/50px "";color: #999;} 
+#section table{border-collapse: collapse;}
+/* #section table thead{} */
+#section table thead tr{height: 100px;padding: 5px 0;border-bottom: 1px solid #999;}
+#section table thead tr.tabletop{height:52px;border: 1px solid #e8e8e8;background: #f3f3f3;}
+#section table thead tr td:nth-child(1){width:40px;text-align: center;}
+#section table thead tr td:nth-child(2){width:40px;}
+#section table thead tr td:nth-child(3){width:450px;text-align: center;}
+#section table thead tr td:nth-child(4){width:160px;text-align: center;}
+#section table thead tr td:nth-child(5){width:120px;text-align: center;}
+#section table thead tr td:nth-child(6){width:200px;text-align: center;}
+#section table thead tr td:nth-child(7){width:190px;text-align: center;}
+#section table thead .tablebody td:nth-child(1){text-align: center;}
+#section table thead .tablebody td:nth-child(2){width:450px;}
+#section table thead .tablebody td:nth-child(2) .bookimg{width: 100px;height: 100px;float: left;}
+#section table thead .tablebody td:nth-child(2) .bookname{width: 300px;height: 100px;float: right;font: 16px/50px "";color: #212121;}
+#section table thead .tablebody td:nth-child(3){width:160px;text-align: center;}
+#section table thead .tablebody td:nth-child(3) .reprice{color: #999;font-size: 14px;}
+#section table thead .tablebody td:nth-child(3) .price{height: 30px;font: 16px/30px "";color: #212121;}
+#section table thead .tablebody td:nth-child(4){width:120px;}
+#section table thead .tablebody td:nth-child(4) .buynum{text-align: center;width: 80px;height: 25px;}
+#section table thead .tablebody td:nth-child(5){width:200px;}
+#section table thead .tablebody td:nth-child(5) .sum{font-size: 16px;color: #e4393c;}
+#section table thead .tablebody td:nth-child(6){width:190px;}
+#section table thead .tablebody td:nth-child(6) .collect{width:100px;height: 30px;font: 16px/30px "";color: #fff;background: #2db4ea;border-radius: 15px;margin: 0 auto;cursor: pointer;}
+#section table thead .tablebody td:nth-child(6) .del{width:100px;height: 30px;font: 16px/30px "";color: #fff;background: #e4393c;border-radius: 15px;margin: 0 auto;margin-top: 10px;cursor: pointer;}
+#section .sumall{height: 80px;background: #f3f3f3;font: bold 18px/80px "";color: #e4393c;}
+#section .sumall span{float: left;height: 80px;width: 120px;text-align: center;}
+#section .sumall .sumnumber{height: 80px;width:200px; float: left;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
