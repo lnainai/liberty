@@ -1,6 +1,6 @@
 //随机生成验证码
-var suiNum=document.querySelector(".suijishu");
-suiNum.onclick=function(){
+var getNum=document.querySelector(".getnum");
+getNum.onclick=function(){
     createCode();
 }
 function createCode(){ 
@@ -10,51 +10,82 @@ function createCode(){
         var index = Math.floor(Math.random()*62);//取得随机数的索引（0~61）  
         code += random[index];//根据索引取得随机数加到code上  
     }  
-    suiNum.innerHTML = code;//把code值赋给验证码 
+    getNum.innerHTML = code;//把code值赋给验证码 
 } 
+//注册验证
+var otel=document.querySelector(".tel");
+var opass=document.querySelector(".pass");
+var repass=document.querySelector(".repass");
+var oynum=document.querySelector(".yanzhengma");
+var oerror=document.querySelector(".error");
+var zhucebtn=document.querySelector(".zhucebtn")
+var t=p=e=y=0;
 
-var ophone=document.querySelector(".phone");   //状态为x
-var opass=document.querySelector(".password")  //状态为y
-var tZhengma=document.querySelector(".tianzhengma")  //状态为z
-var denglubtn=document.querySelector(".denglubtn")
-var defalt=document.querySelector(".defalt")
-
-var x=y=z=0;
-
-ophone.onblur=function(){
-    var myPhone =localStorage.getItem(this.value);
-    if(myPhone){
-        defalt.innerHTML=""
-        x=1;
+otel.onblur = function(){
+    var reg = /^1[3456789]\d{9}$/;
+    if(reg.test(this.value)){
+        oerror.innerHTML = "";
+        t = 1;
     }else{
-        defalt.innerHTML="还没账号？立即注册？"
-    } 
+        oerror.innerHTML = "请输入正确的手机号码！！！";
+        alert("请输入正确的11位手机号");
+        t = 0;
+    }
 }
-opass.onblur=function(){
-    var myPhone =localStorage.getItem(ophone.value);
-    if(this.value == myPhone){
-        defalt.innerHTML=""
-        y=1;
+opass.onblur = function(){
+    var reg = /^.{6,20}$/;
+    if(reg.test(this.value)){
+        oerror.innerHTML = "";
+        p = 1;
     }else{
-        defalt.innerHTML="密码错误，请检查！！！"
-    }    
+        oerror.innerHTML = "密码不符！！！";
+        alert("密码错误请输入字母、数字、“-”“_”的组合，6-20个字符");
+        p = 0;
+    }
 }
-tZhengma.onblur=function(){
-    if(this.value == suiNum.innerHTML){
-        defalt.innerHTML=""
-        z=1;
+repass.onblur = function(){
+    if(this.value == opass.value){
+        oerror.innerHTML = "";
+        e = 1;
     }else{
-        defalt.innerHTML="请正确输入验证码"
+        oerror.innerHTML = "密码不一致!!!";
+        alert("密码不一致");
+        e = 0;
     }
 }
 
-denglubtn.onclick = function(){
-    if(x && y && z){
-        localStorage.setItem("visitor",ophone.value)
+oynum.onblur = function(){
+    if(this.value == getNum.innerHTML){
+        oerror.innerHTML = "";
+        y = 1;
+    }else{
+        oerror.innerHTML = "请正确输入验证码";
+        alert("验证码错误");
+        y = 0;
+    }
+}
+
+
+zhucebtn.onclick = function(){
+    if(t && p && e && y){
         alert("注册成功")
-        location = "../index/login.html"
+        localStorage.setItem(otel.value,opass.value);
+        location = "login.html";
+    }
+    if(t == 0){
+        alert("手机号错误");
+    } 
+    if(p == 0){
+        alert("密码错误");
+    }
+    if(e == 0){
+        alert("密码不一致");
+    }
+    if(y == 0){
+        alert("验证码错误");
     }
 }
+
 
 //渲染用户名
 var visitor=localStorage.getItem("visitor")

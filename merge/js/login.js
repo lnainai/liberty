@@ -52,6 +52,6 @@ denglubtn.onclick = function(){
     if(x && y && z){
         localStorage.setItem("visitor",ophone.value)
         alert("登录成功")
-        location = "../index/index.html"//跳转到首页
+        location = "index.html"//跳转到首页
     }
 }

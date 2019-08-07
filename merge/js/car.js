@@ -1,7 +1,7 @@
 class Car{
     constructor(){
         this.thead = document.querySelector("thead");
-        this.url = "../date/goods.json";
+        this.url = "date/goods.json";
 
         this.init();                   //渲染购物车
         
@@ -131,6 +131,5 @@ class Car{
         }
         this.thead.innerHTML = str;
     }
-
 }
 new Car;

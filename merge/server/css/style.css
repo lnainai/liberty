@@ -12,7 +12,6 @@
     .title .search .find {
       overflow: hidden;
       border: 2px solid red;
-      height: 40px;
       border-radius: 40px;
       position: relative; }
       .title .search .find i {
@@ -82,15 +81,13 @@ nav .menu {
     display: none;
     position: relative; }
     nav .menu .two li {
-      z-index: 99999999999;
+      z-index: 99999;
       background: linear-gradient(to right, #f00, #ff3264);
       position: relative;
       height: 40px;
       width: 164px; }
       nav .menu .two li a {
         height: 40px;
-        width: 164px;
-        display: block;
         text-decoration: none; }
         nav .menu .two li a span {
           float: left;
@@ -127,37 +124,152 @@ nav .menu {
             background-position: -180px -20px; }
           nav .menu .two li a i.t11 {
             background-position: -200px -20px; }
-      nav .menu .two li .subMenu .joinus {
-        width: 693px;
-        height: 459px;
-        background: #ddd;
+      nav .menu .two li .subMenu {
+        display: none;
+        transition: height .4s;
         position: absolute;
+        z-index: 75;
+        top: 0;
         left: 164px;
-        top: 0; }
+        width: 930px;
+        height: 440px;
+        overflow: hidden;
+        max-height: 459px;
+        background: #fff;
+        border: 1px solid #ff1a33;
+        border-width: 1px 1px 1px 0;
+        text-align: left;
+        color: #333;
+        cursor: auto; }
+        nav .menu .two li .subMenu .joinus {
+          float: left;
+          margin: 0 20px 20px 15px;
+          width: 658px;
+          height: 440px;
+          max-height: 440px;
+          overflow: hidden; }
+          nav .menu .two li .subMenu .joinus .m-ctgtbl {
+            width: 100%;
+            font-size: 0; }
+            nav .menu .two li .subMenu .joinus .m-ctgtbl .m-cb .litd {
+              float: left;
+              width: 50%;
+              height: 220px;
+              vertical-align: top;
+              position: relative; }
+              nav .menu .two li .subMenu .joinus .m-ctgtbl .m-cb .litd .line {
+                height: 1px;
+                width: 642px;
+                background: #eaeaea;
+                position: absolute;
+                top: 34px; }
+              nav .menu .two li .subMenu .joinus .m-ctgtbl .m-cb .litd .item {
+                display: inline-block;
+                padding: 0;
+                margin: 0 25px 17px 5px;
+                vertical-align: top;
+                width: 275px;
+                height: auto;
+                line-height: normal;
+                overflow: hidden; }
+                nav .menu .two li .subMenu .joinus .m-ctgtbl .m-cb .litd .item .ti {
+                  height: 34px;
+                  line-height: 34px;
+                  font-size: 14px;
+                  font-weight: 700; }
+                  nav .menu .two li .subMenu .joinus .m-ctgtbl .m-cb .litd .item .ti a {
+                    display: inline;
+                    color: #333;
+                    text-align: left; }
+                nav .menu .two li .subMenu .joinus .m-ctgtbl .m-cb .litd .item .cbox {
+                  margin-left: -8px;
+                  font-size: 0; }
+                  nav .menu .two li .subMenu .joinus .m-ctgtbl .m-cb .litd .item .cbox a {
+                    display: inline-block;
+                    height: 14px;
+                    line-height: 14px;
+                    padding: 0 10px;
+                    margin-top: 20px;
+                    font-size: 13px; }
+                    nav .menu .two li .subMenu .joinus .m-ctgtbl .m-cb .litd .item .cbox a.co {
+                      color: #ff1e32; }
+            nav .menu .two li .subMenu .joinus .m-ctgtbl .m-cb::after {
+              visibility: hidden;
+              display: block;
+              font-size: 0;
+              content: " ";
+              clear: both;
+              height: 0; }
+        nav .menu .two li .subMenu .himg {
+          float: right;
+          height: 440px;
+          width: 218px; }
+          nav .menu .two li .subMenu .himg .brand {
+            height: 322px;
+            overflow: hidden;
+            width: 218px;
+            padding: 6px 0 4px;
+            background: #f6f6f6; }
+            nav .menu .two li .subMenu .himg .brand a {
+              padding: 0; }
+              nav .menu .two li .subMenu .himg .brand a img {
+                float: left;
+                width: 104px;
+                height: 104px;
+                margin: 0 3px 2px 0; }
+                nav .menu .two li .subMenu .himg .brand a img.b1 {
+                  background-position: 0 0; }
+                nav .menu .two li .subMenu .himg .brand a img.b2 {
+                  background-position: -104px 0; }
+                nav .menu .two li .subMenu .himg .brand a img.b3 {
+                  background-position: 0 -104px; }
+                nav .menu .two li .subMenu .himg .brand a img.b4 {
+                  background-position: -104px -104px; }
+                nav .menu .two li .subMenu .himg .brand a img.b5 {
+                  background-position: -208px 0; }
+                nav .menu .two li .subMenu .himg .brand a img.b6 {
+                  background-position: -208px -208px; }
+          nav .menu .two li .subMenu .himg .imgbox {
+            width: 215px;
+            height: 88px; }
+            nav .menu .two li .subMenu .himg .imgbox img {
+              width: 215px;
+              height: 88px; }
       nav .menu .two li:hover {
         background: #fff; }
-        nav .menu .two li:hover .subMenu {
+        nav .menu .two li:hover.cai .subMenu {
+          top: 0;
           display: block; }
         nav .menu .two li:hover.mac .subMenu {
-          top: -40px; }
+          top: -40px;
+          display: block; }
         nav .menu .two li:hover.health .subMenu {
-          top: -80px; }
+          top: -80px;
+          display: block; }
         nav .menu .two li:hover.dev .subMenu {
-          top: -120px; }
+          top: -120px;
+          display: block; }
         nav .menu .two li:hover.dry .subMenu {
-          top: -160px; }
+          top: -160px;
+          display: block; }
         nav .menu .two li:hover.duds .subMenu {
-          top: -200px; }
+          top: -200px;
+          display: block; }
         nav .menu .two li:hover.sports .subMenu {
-          top: -240px; }
+          top: -240px;
+          display: block; }
         nav .menu .two li:hover.watch .subMenu {
-          top: -280px; }
+          top: -280px;
+          display: block; }
         nav .menu .two li:hover.luxury .subMenu {
-          top: -320px; }
+          top: -320px;
+          display: block; }
         nav .menu .two li:hover.life .subMenu {
-          top: -360px; }
+          top: -360px;
+          display: block; }
         nav .menu .two li:hover.food .subMenu {
-          top: -400px; }
+          top: -400px;
+          display: block; }
         nav .menu .two li:hover span {
           color: #f00; }
         nav .menu .two li:hover i.t1 {
@@ -535,7 +647,6 @@ nav .menu {
   width: 1090px;
   margin: 10px auto; }
   .box ul {
-    /*overflow: hidden; !*清除子元素的浮动对父元素的影响*!*/
     position: relative;
     top: 1px; }
     .box ul:after {
@@ -552,12 +663,11 @@ nav .menu {
       text-align: center;
       cursor: pointer; }
       .box ul li.select {
-        background: #f03048; }
+        background: #f0f0f0; }
   .box div {
     display: none;
     height: 400px;
-    text-align: center;
-    /*clear: both; 清除哥哥元素的浮动对弟弟元素的影响*!*/ }
+    text-align: center; }
     .box div img {
       width: 1090px;
       height: 400px; }

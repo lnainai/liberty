@@ -31,7 +31,7 @@ textarea{resize:none;}/*禁止多行文本输入框的拖动*/
 .cu{cursor:pointer;}
 
 header{background:#000;height:30px;border-bottom: 1px solid #ededee;}
-
+header a{font:12px/30px "";}
 #about {
     height: 410px; }
     #about .guild {

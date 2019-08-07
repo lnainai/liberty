@@ -86,5 +86,14 @@ $("#side").children("li").click(function(){
 	})
 })
 
+//渲染用户名
+var visitor=localStorage.getItem("visitor")
+window.onload=function(){
+    if(visitor){
+        $(".denglu").html("您好！");
+        $(".telephone").html(visitor);
+    }  
+}
+
 
 		

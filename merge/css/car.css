@@ -25,7 +25,7 @@
 #section table thead .tablebody td:nth-child(5){width:200px;}
 #section table thead .tablebody td:nth-child(5) .sum{font-size: 16px;color: #e4393c;}
 #section table thead .tablebody td:nth-child(6){width:190px;}
-#section table thead .tablebody td:nth-child(6) .collect{width:100px;height: 30px;font: 16px/30px "";color: #fff;background: #2db4ea;border-radius: 15px;margin: 0 auto;cursor: pointer;}
+#section table thead .tablebody td:nth-child(6) .collect{width:100px;height: 30px;font: 16px/30px "";color: #fff;background: #e4393c;border-radius: 15px;margin: 0 auto;cursor: pointer;}
 #section table thead .tablebody td:nth-child(6) .del{width:100px;height: 30px;font: 16px/30px "";color: #fff;background: #e4393c;border-radius: 15px;margin: 0 auto;margin-top: 10px;cursor: pointer;}
 #section .sumall{height: 80px;background: #f3f3f3;font: bold 18px/80px "";color: #e4393c;}
 #section .sumall span{float: left;height: 80px;width: 120px;text-align: center;}
