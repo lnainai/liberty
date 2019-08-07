@@ -3,7 +3,7 @@ class GetGoods{
     constructor(){
         this.cont=document.querySelector(".cont")
 
-        this.url="../date/goods.json"
+        this.url="date/goods.json"
 
         this.init();
 

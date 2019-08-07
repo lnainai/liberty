@@ -1,0 +1,93 @@
+[
+    {
+        "src":"imgs/goods/z1.jpg",
+        "name":"ESTĒE LAUDER 雅诗兰黛",
+        "price":"￥96.56",
+        "reprice":"￥142.00",
+        "goodsId":"1"
+    },{
+        "src":"imgs/goods/z2.jpg",
+        "name":"innisfree 悦诗风吟 绿茶精萃水乳两件套装",
+        "price":"￥48.99",
+        "reprice":"￥69.00",
+        "goodsId":"2"
+    },{
+        "src":"imgs/goods/3.jpg",
+        "name":"【日本版黑色】KISS ME 奇士美",
+        "price":"￥38.90",
+        "reprice":"￥55.00",
+        "goodsId":"3"
+    },{
+        "src":"imgs/goods/4.jpg",
+        "name":"【自营】JMsolution 急救补水针剂面膜 35毫升/片 10片装",
+        "price":"￥59.84",
+        "reprice":"￥88.00",
+        "goodsId":"4"
+    },{
+        "src":"imgs/goods/5.jpg",
+        "name":"SPC 蛇毒保湿补水面膜 提拉紧致 修护除细纹 50片装",
+        "price":"￥177.60",
+        "reprice":"￥222.00",
+        "goodsId":"5"
+    },{
+        "src":"imgs/goods/6.jpg",
+        "name":"Swisse 奶蓟草护肝片 120片/瓶【拯救熬夜的肝】",
+        "price":"￥27.50",
+        "reprice":"￥55.00",
+        "goodsId":"6"
+    },{
+        "src":"imgs/goods/7.jpg",
+        "name":"Sudocrem 屁屁霜 亮白清洁面膜去黑头粉刺清痘疤 125克",
+        "price":"￥72.00",
+        "reprice":"￥96.00",
+        "goodsId":"7"
+    },{
+        "src":"imgs/goods/8.jpg",
+        "name":"Deonatulle 腋下干爽止汗消臭石 20克 强去汗味",
+        "price":"￥496.29",
+        "reprice":"￥699.00",
+        "goodsId":"8"
+    },{
+        "src":"imgs/goods/9.jpg",
+        "name":"DHC 蝶翠诗 纯榄润唇膏 1.5克",
+        "price":"￥171.40",
+        "reprice":"￥238.00",
+        "goodsId":"9"
+    },{
+        "src":"imgs/goods/10.jpg",
+        "name":"innisfree 悦诗风吟 绿茶洗面奶 150毫升",
+        "price":"￥96.00",
+        "reprice":"￥128.00",
+        "goodsId":"10"
+    },{
+        "src":"imgs/goods/11.jpg",
+        "name":"KOBAYASHI 小林制药 暗疮膏痘痘膏 18克",
+        "price":"￥43.10",
+        "reprice":"￥59.00",
+        "goodsId":"11"
+    },{
+        "src":"imgs/goods/12.jpg",
+        "name":"CANMAKE 井田 花瓣雕刻五色腮红 02号 6.3克",
+        "price":"￥17.97",
+        "reprice":"￥26.00",
+        "goodsId":"12"
+    },{
+        "src":"imgs/goods/z1.jpg",
+        "name":"ESTĒE LAUDER 雅诗兰黛",
+        "price":"￥96.56",
+        "reprice":"￥142.00",
+        "goodsId":"1"
+    },{
+        "src":"imgs/goods/z2.jpg",
+        "name":"innisfree 悦诗风吟 绿茶精萃水乳两件套装",
+        "price":"￥48.99",
+        "reprice":"￥69.00",
+        "goodsId":"2"
+    },{
+        "src":"imgs/goods/3.jpg",
+        "name":"【日本版黑色】KISS ME 奇士美",
+        "price":"￥38.90",
+        "reprice":"￥55.00",
+        "goodsId":"3"
+    }
+]

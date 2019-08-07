@@ -84,7 +84,9 @@ nav .menu {
     nav .menu .two li {
       z-index: 99999999999;
       background: linear-gradient(to right, #f00, #ff3264);
-      position: relative; }
+      position: relative;
+      height: 40px;
+      width: 164px; }
       nav .menu .two li a {
         height: 40px;
         width: 164px;
@@ -125,76 +127,13 @@ nav .menu {
             background-position: -180px -20px; }
           nav .menu .two li a i.t11 {
             background-position: -200px -20px; }
-      nav .menu .two li .subMenu {
-        border: 1px solid #f00;
-        width: 930px;
-        height: 440px;
-        z-index: 99999999999;
+      nav .menu .two li .subMenu .joinus {
+        width: 693px;
+        height: 459px;
+        background: #ddd;
         position: absolute;
-        top: 0;
         left: 164px;
-        background: #fff;
-        display: none; }
-        nav .menu .two li .subMenu .joinus {
-          float: left;
-          width: 568px;
-          display: flex;
-          flex-direction: column;
-          margin: 0 20px 0 15px; }
-          nav .menu .two li .subMenu .joinus .box {
-            display: flex; }
-            nav .menu .two li .subMenu .joinus .box .beauty h6 {
-              font: 700 14px/34px "";
-              border-bottom: 1px solid #eaeaea; }
-            nav .menu .two li .subMenu .joinus .box .beauty ul {
-              width: 283px; }
-              nav .menu .two li .subMenu .joinus .box .beauty ul li {
-                float: left;
-                background: #fff;
-                font: 12px/34px "";
-                color: #666;
-                margin: 0 14px 0 6px; }
-                nav .menu .two li .subMenu .joinus .box .beauty ul li.co {
-                  float: left;
-                  background: #fff;
-                  font: 12px/34px "";
-                  color: #f00;
-                  margin: 0 14px 0 6px; }
-        nav .menu .two li .subMenu .brand {
-          float: right;
-          width: 237px;
-          height: 438px;
-          background: #f6f6f6;
-          display: flex;
-          justify-content: space-around;
-          flex-wrap: wrap; }
-          nav .menu .two li .subMenu .brand a {
-            display: block;
-            width: 104px;
-            height: 104px; }
-            nav .menu .two li .subMenu .brand a.bet {
-              width: 215px;
-              height: 88px; }
-            nav .menu .two li .subMenu .brand a img {
-              width: 104px;
-              height: 104px;
-              display: block;
-              border-color: #eaeaea; }
-              nav .menu .two li .subMenu .brand a img.b1 {
-                background-position: 0 0; }
-              nav .menu .two li .subMenu .brand a img.b2 {
-                background-position: -104px 0; }
-              nav .menu .two li .subMenu .brand a img.b3 {
-                background-position: 0 -104px; }
-              nav .menu .two li .subMenu .brand a img.b4 {
-                background-position: -104px -104px; }
-              nav .menu .two li .subMenu .brand a img.b5 {
-                background-position: -208px 0; }
-              nav .menu .two li .subMenu .brand a img.b6 {
-                background-position: -208px -208px; }
-              nav .menu .two li .subMenu .brand a img.bet {
-                width: 215px;
-                height: 88px; }
+        top: 0; }
       nav .menu .two li:hover {
         background: #fff; }
         nav .menu .two li:hover .subMenu {
@@ -327,8 +266,9 @@ nav .menu {
       margin: 0 5px; }
 
 #goods {
-  height: 5145px;
-  border-bottom: 1px solid #eaeaea; }
+  height: 4200px;
+  border-bottom: 1px solid #eaeaea;
+  overflow: hidden; }
   #goods .content .wome {
     background: #f0f0f0; }
     #goods .content .wome h3 {
@@ -356,8 +296,8 @@ nav .menu {
           position: absolute;
           left: 15px;
           top: 175px;
-          width: 56px;
-          height: 15px;
+          width: 60px;
+          height: 20px;
           border: 1px solid #e31436;
           border-radius: 3px;
           text-align: center; }
@@ -420,8 +360,8 @@ nav .menu {
           position: absolute;
           left: 15px;
           top: 175px;
-          width: 56px;
-          height: 15px;
+          width: 60px;
+          height: 20px;
           border: 1px solid #e31436;
           border-radius: 3px;
           text-align: center; }
@@ -484,8 +424,8 @@ nav .menu {
           position: absolute;
           left: 15px;
           top: 175px;
-          width: 56px;
-          height: 15px;
+          width: 60px;
+          height: 20px;
           border: 1px solid #e31436;
           border-radius: 3px;
           text-align: center; }
@@ -548,8 +488,8 @@ nav .menu {
           position: absolute;
           left: 15px;
           top: 175px;
-          width: 56px;
-          height: 15px;
+          width: 60px;
+          height: 20px;
           border: 1px solid #e31436;
           border-radius: 3px;
           text-align: center; }
@@ -585,102 +525,47 @@ nav .menu {
             margin: 4px 5px 4px 0;
             border-radius: 3px;
             background: #e31436; }
-  #goods .content #tabFir {
-    height: 934px;
-    margin: 10px auto; }
-    #goods .content #tabFir .ul {
-      /*overflow: hidden; !*清除子元素的浮动对父元素的影响*!*/
-      position: relative;
-      top: 1px; }
-      #goods .content #tabFir .ul:after {
-        display: block;
-        content: "";
-        clear: both; }
-      #goods .content #tabFir .ul li {
-        float: left;
-        width: 100px;
-        height: 30px;
-        border: 1px solid #f0f0f0;
-        line-height: 30px;
-        text-align: center;
-        cursor: pointer; }
-        #goods .content #tabFir .ul li.select {
-          background: #f0f0f0;
-          border-bottom-color: #f0f0f0; }
-    #goods .content #tabFir .tab {
-      background: #f0f0f0;
-      display: none;
-      height: 862px;
-      text-align: center;
-      line-height: 862px;
-      border: 1px solid #f0f0f0;
-      /*clear: both; 清除哥哥元素的浮动对弟弟元素的影响*!*/ }
-      #goods .content #tabFir .tab .list {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 12px 0 0 38px;
-        height: 862px; }
-        #goods .content #tabFir .tab .list li {
-          flex-grow: 0;
-          width: 192px;
-          height: 277px;
-          background: #fff;
-          position: relative;
-          margin: 0 1px 7px 10px; }
-          #goods .content #tabFir .tab .list li .com a img {
-            width: 192px;
-            height: 192px; }
-          #goods .content #tabFir .tab .list li .area {
-            position: absolute;
-            left: 15px;
-            top: 175px;
-            width: 56px;
-            height: 15px;
-            border: 1px solid #e31436;
-            border-radius: 3px;
-            text-align: center; }
-            #goods .content #tabFir .tab .list li .area a {
-              color: #e31436; }
-          #goods .content #tabFir .tab .list li .name {
-            margin-left: 5px;
-            display: block;
-            width: 175px;
-            font: 700 14px/28px "";
-            color: #000;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis; }
-          #goods .content #tabFir .tab .list li h6 {
-            margin-left: 5px;
-            font: 12px/2 "";
-            color: #666; }
-          #goods .content #tabFir .tab .list li .desc {
-            margin-left: 5px; }
-            #goods .content #tabFir .tab .list li .desc .price {
-              font: 700 16px/32px "";
-              color: #e31436;
-              float: left; }
-            #goods .content #tabFir .tab .list li .desc .buy {
-              display: block;
-              width: 60px;
-              height: 24px;
-              font: 12px/2 "";
-              color: #fff;
-              text-align: center;
-              float: right;
-              margin: 4px 5px 4px 0;
-              border-radius: 3px;
-              background: #e31436; }
-      #goods .content #tabFir .tab.select {
-        display: block; }
   #goods .content .use a {
     display: block; }
     #goods .content .use a img {
       width: 100%;
       height: 400px; }
 
+.box {
+  width: 1090px;
+  margin: 10px auto; }
+  .box ul {
+    /*overflow: hidden; !*清除子元素的浮动对父元素的影响*!*/
+    position: relative;
+    top: 1px; }
+    .box ul:after {
+      display: block;
+      content: "";
+      clear: both; }
+    .box ul li {
+      float: left;
+      margin-right: 15px;
+      width: 100px;
+      height: 30px;
+      border: 1px solid red;
+      line-height: 30px;
+      text-align: center;
+      cursor: pointer; }
+      .box ul li.select {
+        background: #f03048; }
+  .box div {
+    display: none;
+    height: 400px;
+    text-align: center;
+    /*clear: both; 清除哥哥元素的浮动对弟弟元素的影响*!*/ }
+    .box div img {
+      width: 1090px;
+      height: 400px; }
+    .box div.select {
+      display: block; }
+
 #side {
-  width: 75px;
+  width: 90px;
   position: fixed;
   right: 0;
   top: 30%;
@@ -689,7 +574,7 @@ nav .menu {
   z-index: 999999;
   background: #f03048; }
   #side li {
-    width: 75px;
+    width: 90px;
     height: 36px;
     text-align: center;
     border-bottom: 1px solid #c0263a;

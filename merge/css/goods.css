@@ -7,7 +7,7 @@
 #booklist .f1 .t1 p a{padding: 4px 10px;margin-right: 10px;}
 #booklist .f1 .t1 p a.active{background: #62adbb;color: #fff;} */
 #booklist .f1 .c1{padding-top:38px;}
-#booklist .f1 .c1 ul{overflow: hidden;}
+#booklist .f1 .c1 ul{overflow: hidden;background:#fff;}
 #booklist .f1 .c1 ul li{float: left;width: 190px;height: 270px;padding: 5px;}
 #booklist .f1 .c1 ul .bookbox .book{height: 152px;padding: 20px;}
 #booklist .f1 .c1 ul .bookbox .book a{display: block;width:150px;height: 152px;}
