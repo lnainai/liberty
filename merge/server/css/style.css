@@ -389,62 +389,43 @@ nav .menu {
       font: 28px/60px "";
       color: #fff;
       text-align: center; }
-    #goods .content .wome .list {
+    #goods .content .wome .cont, #goods .content .wome .option, #goods .content .wome .bign, #goods .content .wome .featured {
       display: flex;
       flex-wrap: wrap;
       margin: 12px 0 0 38px;
-      height: 862px; }
-      #goods .content .wome .list li {
+      height: 862px;
+      overflow: hidden; }
+      #goods .content .wome .cont .shopbox, #goods .content .wome .option .shopbox, #goods .content .wome .bign .shopbox, #goods .content .wome .featured .shopbox {
         flex-grow: 0;
         width: 192px;
         height: 277px;
         background: #fff;
         position: relative;
         margin: 0 1px 7px 10px; }
-        #goods .content .wome .list li .com a img {
-          width: 192px;
-          height: 192px; }
-        #goods .content .wome .list li .area {
-          position: absolute;
-          left: 15px;
-          top: 175px;
-          width: 60px;
-          height: 20px;
-          border: 1px solid #e31436;
-          border-radius: 3px;
-          text-align: center; }
-          #goods .content .wome .list li .area a {
-            color: #e31436; }
-        #goods .content .wome .list li .name {
-          margin-left: 5px;
-          display: block;
-          width: 175px;
-          font: 700 14px/28px "";
-          color: #000;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis; }
-        #goods .content .wome .list li h6 {
-          margin-left: 5px;
-          font: 12px/2 "";
-          color: #666; }
-        #goods .content .wome .list li .desc {
-          margin-left: 5px; }
-          #goods .content .wome .list li .desc .price {
-            font: 700 16px/32px "";
-            color: #e31436;
-            float: left; }
-          #goods .content .wome .list li .desc .buy {
+        #goods .content .wome .cont .shopbox .shop, #goods .content .wome .option .shopbox .shop, #goods .content .wome .bign .shopbox .shop, #goods .content .wome .featured .shopbox .shop {
+          height: 180px;
+          padding: 20px; }
+          #goods .content .wome .cont .shopbox .shop a, #goods .content .wome .option .shopbox .shop a, #goods .content .wome .bign .shopbox .shop a, #goods .content .wome .featured .shopbox .shop a {
             display: block;
-            width: 60px;
-            height: 24px;
-            font: 12px/2 "";
-            color: #fff;
-            text-align: center;
-            float: right;
-            margin: 4px 5px 4px 0;
-            border-radius: 3px;
-            background: #e31436; }
+            width: 150px;
+            height: 152px; }
+        #goods .content .wome .cont .shopbox:hover, #goods .content .wome .option .shopbox:hover, #goods .content .wome .bign .shopbox:hover, #goods .content .wome .featured .shopbox:hover {
+          background: rgba(0, 0, 0, 0.1); }
+        #goods .content .wome .cont .shopbox .shopname, #goods .content .wome .option .shopbox .shopname, #goods .content .wome .bign .shopbox .shopname, #goods .content .wome .featured .shopbox .shopname {
+          display: block;
+          height: 45px;
+          font: 14px/18px "";
+          color: #666;
+          text-align: center; }
+        #goods .content .wome .cont .shopbox .shoprice, #goods .content .wome .option .shopbox .shoprice, #goods .content .wome .bign .shopbox .shoprice, #goods .content .wome .featured .shopbox .shoprice {
+          height: 42px;
+          text-align: center;
+          font: 16px/40px ""; }
+          #goods .content .wome .cont .shopbox .shoprice span:first-child, #goods .content .wome .option .shopbox .shoprice span:first-child, #goods .content .wome .bign .shopbox .shoprice span:first-child, #goods .content .wome .featured .shopbox .shoprice span:first-child {
+            color: #f00; }
+          #goods .content .wome .cont .shopbox .shoprice del, #goods .content .wome .option .shopbox .shoprice del, #goods .content .wome .bign .shopbox .shoprice del, #goods .content .wome .featured .shopbox .shoprice del {
+            font: 12px/40px "";
+            color: #999; }
   #goods .content .optional {
     background: #f0f0f0; }
     #goods .content .optional h3 {
@@ -453,62 +434,43 @@ nav .menu {
       font: 28px/60px "";
       color: #fff;
       text-align: center; }
-    #goods .content .optional .list {
+    #goods .content .optional .cont, #goods .content .optional .option, #goods .content .optional .bign, #goods .content .optional .featured {
       display: flex;
       flex-wrap: wrap;
       margin: 12px 0 0 38px;
-      height: 862px; }
-      #goods .content .optional .list li {
+      height: 862px;
+      overflow: hidden; }
+      #goods .content .optional .cont .shopbox, #goods .content .optional .option .shopbox, #goods .content .optional .bign .shopbox, #goods .content .optional .featured .shopbox {
         flex-grow: 0;
         width: 192px;
         height: 277px;
         background: #fff;
         position: relative;
         margin: 0 1px 7px 10px; }
-        #goods .content .optional .list li .com a img {
-          width: 192px;
-          height: 192px; }
-        #goods .content .optional .list li .area {
-          position: absolute;
-          left: 15px;
-          top: 175px;
-          width: 60px;
-          height: 20px;
-          border: 1px solid #e31436;
-          border-radius: 3px;
-          text-align: center; }
-          #goods .content .optional .list li .area a {
-            color: #e31436; }
-        #goods .content .optional .list li .name {
-          margin-left: 5px;
-          display: block;
-          width: 175px;
-          font: 700 14px/28px "";
-          color: #000;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis; }
-        #goods .content .optional .list li h6 {
-          margin-left: 5px;
-          font: 12px/2 "";
-          color: #666; }
-        #goods .content .optional .list li .desc {
-          margin-left: 5px; }
-          #goods .content .optional .list li .desc .price {
-            font: 700 16px/32px "";
-            color: #e31436;
-            float: left; }
-          #goods .content .optional .list li .desc .buy {
+        #goods .content .optional .cont .shopbox .shop, #goods .content .optional .option .shopbox .shop, #goods .content .optional .bign .shopbox .shop, #goods .content .optional .featured .shopbox .shop {
+          height: 180px;
+          padding: 20px; }
+          #goods .content .optional .cont .shopbox .shop a, #goods .content .optional .option .shopbox .shop a, #goods .content .optional .bign .shopbox .shop a, #goods .content .optional .featured .shopbox .shop a {
             display: block;
-            width: 60px;
-            height: 24px;
-            font: 12px/2 "";
-            color: #fff;
-            text-align: center;
-            float: right;
-            margin: 4px 5px 4px 0;
-            border-radius: 3px;
-            background: #e31436; }
+            width: 150px;
+            height: 152px; }
+        #goods .content .optional .cont .shopbox:hover, #goods .content .optional .option .shopbox:hover, #goods .content .optional .bign .shopbox:hover, #goods .content .optional .featured .shopbox:hover {
+          background: rgba(0, 0, 0, 0.1); }
+        #goods .content .optional .cont .shopbox .shopname, #goods .content .optional .option .shopbox .shopname, #goods .content .optional .bign .shopbox .shopname, #goods .content .optional .featured .shopbox .shopname {
+          display: block;
+          height: 45px;
+          font: 14px/18px "";
+          color: #666;
+          text-align: center; }
+        #goods .content .optional .cont .shopbox .shoprice, #goods .content .optional .option .shopbox .shoprice, #goods .content .optional .bign .shopbox .shoprice, #goods .content .optional .featured .shopbox .shoprice {
+          height: 42px;
+          text-align: center;
+          font: 16px/40px ""; }
+          #goods .content .optional .cont .shopbox .shoprice span:first-child, #goods .content .optional .option .shopbox .shoprice span:first-child, #goods .content .optional .bign .shopbox .shoprice span:first-child, #goods .content .optional .featured .shopbox .shoprice span:first-child {
+            color: #f00; }
+          #goods .content .optional .cont .shopbox .shoprice del, #goods .content .optional .option .shopbox .shoprice del, #goods .content .optional .bign .shopbox .shoprice del, #goods .content .optional .featured .shopbox .shoprice del {
+            font: 12px/40px "";
+            color: #999; }
   #goods .content .full {
     background: #f0f0f0; }
     #goods .content .full h3 {
@@ -517,62 +479,43 @@ nav .menu {
       font: 28px/60px "";
       color: #fff;
       text-align: center; }
-    #goods .content .full .list {
+    #goods .content .full .cont, #goods .content .full .option, #goods .content .full .bign, #goods .content .full .featured {
       display: flex;
       flex-wrap: wrap;
       margin: 12px 0 0 38px;
-      height: 862px; }
-      #goods .content .full .list li {
+      height: 862px;
+      overflow: hidden; }
+      #goods .content .full .cont .shopbox, #goods .content .full .option .shopbox, #goods .content .full .bign .shopbox, #goods .content .full .featured .shopbox {
         flex-grow: 0;
         width: 192px;
         height: 277px;
         background: #fff;
         position: relative;
         margin: 0 1px 7px 10px; }
-        #goods .content .full .list li .com a img {
-          width: 192px;
-          height: 192px; }
-        #goods .content .full .list li .area {
-          position: absolute;
-          left: 15px;
-          top: 175px;
-          width: 60px;
-          height: 20px;
-          border: 1px solid #e31436;
-          border-radius: 3px;
-          text-align: center; }
-          #goods .content .full .list li .area a {
-            color: #e31436; }
-        #goods .content .full .list li .name {
-          margin-left: 5px;
-          display: block;
-          width: 175px;
-          font: 700 14px/28px "";
-          color: #000;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis; }
-        #goods .content .full .list li h6 {
-          margin-left: 5px;
-          font: 12px/2 "";
-          color: #666; }
-        #goods .content .full .list li .desc {
-          margin-left: 5px; }
-          #goods .content .full .list li .desc .price {
-            font: 700 16px/32px "";
-            color: #e31436;
-            float: left; }
-          #goods .content .full .list li .desc .buy {
+        #goods .content .full .cont .shopbox .shop, #goods .content .full .option .shopbox .shop, #goods .content .full .bign .shopbox .shop, #goods .content .full .featured .shopbox .shop {
+          height: 180px;
+          padding: 20px; }
+          #goods .content .full .cont .shopbox .shop a, #goods .content .full .option .shopbox .shop a, #goods .content .full .bign .shopbox .shop a, #goods .content .full .featured .shopbox .shop a {
             display: block;
-            width: 60px;
-            height: 24px;
-            font: 12px/2 "";
-            color: #fff;
-            text-align: center;
-            float: right;
-            margin: 4px 5px 4px 0;
-            border-radius: 3px;
-            background: #e31436; }
+            width: 150px;
+            height: 152px; }
+        #goods .content .full .cont .shopbox:hover, #goods .content .full .option .shopbox:hover, #goods .content .full .bign .shopbox:hover, #goods .content .full .featured .shopbox:hover {
+          background: rgba(0, 0, 0, 0.1); }
+        #goods .content .full .cont .shopbox .shopname, #goods .content .full .option .shopbox .shopname, #goods .content .full .bign .shopbox .shopname, #goods .content .full .featured .shopbox .shopname {
+          display: block;
+          height: 45px;
+          font: 14px/18px "";
+          color: #666;
+          text-align: center; }
+        #goods .content .full .cont .shopbox .shoprice, #goods .content .full .option .shopbox .shoprice, #goods .content .full .bign .shopbox .shoprice, #goods .content .full .featured .shopbox .shoprice {
+          height: 42px;
+          text-align: center;
+          font: 16px/40px ""; }
+          #goods .content .full .cont .shopbox .shoprice span:first-child, #goods .content .full .option .shopbox .shoprice span:first-child, #goods .content .full .bign .shopbox .shoprice span:first-child, #goods .content .full .featured .shopbox .shoprice span:first-child {
+            color: #f00; }
+          #goods .content .full .cont .shopbox .shoprice del, #goods .content .full .option .shopbox .shoprice del, #goods .content .full .bign .shopbox .shoprice del, #goods .content .full .featured .shopbox .shoprice del {
+            font: 12px/40px "";
+            color: #999; }
   #goods .content .factory {
     background: #f0f0f0; }
     #goods .content .factory h3 {
@@ -581,62 +524,43 @@ nav .menu {
       font: 28px/60px "";
       color: #fff;
       text-align: center; }
-    #goods .content .factory .list {
+    #goods .content .factory .cont, #goods .content .factory .option, #goods .content .factory .bign, #goods .content .factory .featured {
       display: flex;
       flex-wrap: wrap;
       margin: 12px 0 0 38px;
-      height: 862px; }
-      #goods .content .factory .list li {
+      height: 862px;
+      overflow: hidden; }
+      #goods .content .factory .cont .shopbox, #goods .content .factory .option .shopbox, #goods .content .factory .bign .shopbox, #goods .content .factory .featured .shopbox {
         flex-grow: 0;
         width: 192px;
         height: 277px;
         background: #fff;
         position: relative;
         margin: 0 1px 7px 10px; }
-        #goods .content .factory .list li .com a img {
-          width: 192px;
-          height: 192px; }
-        #goods .content .factory .list li .area {
-          position: absolute;
-          left: 15px;
-          top: 175px;
-          width: 60px;
-          height: 20px;
-          border: 1px solid #e31436;
-          border-radius: 3px;
-          text-align: center; }
-          #goods .content .factory .list li .area a {
-            color: #e31436; }
-        #goods .content .factory .list li .name {
-          margin-left: 5px;
-          display: block;
-          width: 175px;
-          font: 700 14px/28px "";
-          color: #000;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis; }
-        #goods .content .factory .list li h6 {
-          margin-left: 5px;
-          font: 12px/2 "";
-          color: #666; }
-        #goods .content .factory .list li .desc {
-          margin-left: 5px; }
-          #goods .content .factory .list li .desc .price {
-            font: 700 16px/32px "";
-            color: #e31436;
-            float: left; }
-          #goods .content .factory .list li .desc .buy {
+        #goods .content .factory .cont .shopbox .shop, #goods .content .factory .option .shopbox .shop, #goods .content .factory .bign .shopbox .shop, #goods .content .factory .featured .shopbox .shop {
+          height: 180px;
+          padding: 20px; }
+          #goods .content .factory .cont .shopbox .shop a, #goods .content .factory .option .shopbox .shop a, #goods .content .factory .bign .shopbox .shop a, #goods .content .factory .featured .shopbox .shop a {
             display: block;
-            width: 60px;
-            height: 24px;
-            font: 12px/2 "";
-            color: #fff;
-            text-align: center;
-            float: right;
-            margin: 4px 5px 4px 0;
-            border-radius: 3px;
-            background: #e31436; }
+            width: 150px;
+            height: 152px; }
+        #goods .content .factory .cont .shopbox:hover, #goods .content .factory .option .shopbox:hover, #goods .content .factory .bign .shopbox:hover, #goods .content .factory .featured .shopbox:hover {
+          background: rgba(0, 0, 0, 0.1); }
+        #goods .content .factory .cont .shopbox .shopname, #goods .content .factory .option .shopbox .shopname, #goods .content .factory .bign .shopbox .shopname, #goods .content .factory .featured .shopbox .shopname {
+          display: block;
+          height: 45px;
+          font: 14px/18px "";
+          color: #666;
+          text-align: center; }
+        #goods .content .factory .cont .shopbox .shoprice, #goods .content .factory .option .shopbox .shoprice, #goods .content .factory .bign .shopbox .shoprice, #goods .content .factory .featured .shopbox .shoprice {
+          height: 42px;
+          text-align: center;
+          font: 16px/40px ""; }
+          #goods .content .factory .cont .shopbox .shoprice span:first-child, #goods .content .factory .option .shopbox .shoprice span:first-child, #goods .content .factory .bign .shopbox .shoprice span:first-child, #goods .content .factory .featured .shopbox .shoprice span:first-child {
+            color: #f00; }
+          #goods .content .factory .cont .shopbox .shoprice del, #goods .content .factory .option .shopbox .shoprice del, #goods .content .factory .bign .shopbox .shoprice del, #goods .content .factory .featured .shopbox .shoprice del {
+            font: 12px/40px "";
+            color: #999; }
   #goods .content .use a {
     display: block; }
     #goods .content .use a img {

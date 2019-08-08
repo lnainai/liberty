@@ -2,11 +2,12 @@
 class GetGoods{
     constructor(){
         this.cont=document.querySelector(".cont")
-
+        this.option=document.querySelector(".option")
+        this.bign=document.querySelector(".bign")
+        this.featured=document.querySelector(".featured")
+        
         this.url="date/goods.json"
-
         this.init();
-
         this.addEvent();
     }
     addEvent(){
@@ -35,12 +36,12 @@ class GetGoods{
     display(){
         var str = "";
         for(var i=0;i<this.res.length;i++){
-            str += `<li class="bookbox" index="${this.res[i].goodsId}">
-                        <div class="book" index="${this.res[i].goodsId}">
+            str += `<li class="shopbox" index="${this.res[i].goodsId}">
+                        <div class="shop" index="${this.res[i].goodsId}">
                             <a href="details.html" style="background: url(${this.res[i].src}) no-repeat center;background-size: contain;"></a>
                         </div>
-                        <a class="bookname" href="details.html">${this.res[i].name}</a> 
-                        <p class="bookprice" index="${this.res[i].goodsId}">
+                        <a class="shopname" href="details.html">${this.res[i].name}</a> 
+                        <p class="shoprice" index="${this.res[i].goodsId}">
                             <span>${this.res[i].price}</span>
                             <span>|</span>
                             <del>${this.res[i].reprice}</del>
@@ -48,6 +49,9 @@ class GetGoods{
                     </li>`;
         }
         this.cont.innerHTML = str;
+        this.option.innerHTML = str;
+        this.bign.innerHTML = str;
+        this.featured.innerHTML = str;
     }
 }
 new GetGoods();

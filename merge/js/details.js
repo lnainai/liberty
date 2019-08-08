@@ -2,13 +2,13 @@
 class GetDetail{
 	constructor(){
 		this.bimg=document.querySelector(".bigphoto")
-		this.bbimg=document.querySelector("b_photo")
+		// this.bbimg=document.querySelector("b_photo")
 		this.simg=document.querySelector(".smallphoto")
 		this.bname=document.querySelector(".bookname")
 		this.xjia=document.querySelector(".xjia")
 		this.addcar=document.querySelector(".addcar")
 		this.num=document.querySelector(".changenum")
-	
+		
         this.url="date/goods.json"
 
 		this.init();
@@ -27,9 +27,9 @@ class GetDetail{
 		for(var i=0;i<this.res.length;i++){            //遍历所有商品，找到点击的对应商品信息
 			if(this.res[i].goodsId==localStorage.getItem("goods")){
 				this.bimg.innerHTML=`<img class="zximg" src="${this.res[i].src}" alt="">`
-				console.log(this.bimg.innerHTML);
-				this.bbimg.innerHTML=`<img class="dimg" src="${this.res[i].src}" alt="">`
-				console.log(this.bbimg.innerHTML);
+				// console.log(this.bimg.innerHTML);
+				// this.bbimg.innerHTML=`<img class="dimg" src="${this.res[i].src}" alt="">`
+				// console.log(this.bbimg.innerHTML);
 				this.simg.innerHTML=`<img src="${this.res[i].src}" alt="">`
 				this.bname.innerHTML=`${this.res[i].name}`				
 				this.xjia.innerHTML=`${this.res[i].price}`
@@ -43,12 +43,6 @@ class GetDetail{
 				imgShow("#outdiv", "#indiv", "#bigimg", that);
 			});
 		});
-		// $(function(){
-		// 	$(".dimg").click(function(){
-		// 		var that = $(this);              //将当前的img元素作为that传入函数
-		// 		imgShow("#outdiv", "#indiv", "#bigimg", that);
-		// 	});
-		// });
 	}
 	addEvent(){
 		var that = this;
@@ -90,7 +84,7 @@ class GetDetail{
 		localStorage.setItem("cargoods",JSON.stringify(this.cargoods))
 	}
 }
-
+new GetDetail();
 
 function imgShow(outerdiv, innerdiv, bigimg, _this){
 	var src = _this.attr("src");                 //获取当前点击的img元素中的src属性
@@ -133,8 +127,8 @@ function imgShow(outerdiv, innerdiv, bigimg, _this){
 
 
 function Magnifier(){
-	console.log(this.bBox)
 	this.sBox = document.querySelector(".bigphoto");
+	this.bBox = document.querySelector(".b_photo");
 	this.bBox = document.querySelector(".b_photo");
 	this.bImg = this.bBox.children[0];
 	this.addEvent()
@@ -195,15 +189,9 @@ Magnifier.prototype.move = function(e){
 	this.bImg.style.left = -x * (this.bImg.offsetWidth - this.bBox.offsetWidth) + "px";
 	this.bImg.style.top = -y * (this.bImg.offsetHeight - this.bBox.offsetHeight) + "px";
 }
-new GetDetail();
 new Magnifier;
-//点击图片放大
-// $(function(){
-//     $(".zximg").click(function(){
-//         var that = $(this);//将当前的img元素作为that传入函数
-//         imgShow("#outdiv", "#indiv", "#bigimg", that);
-//     });
-// });
+
+
 
 
 
